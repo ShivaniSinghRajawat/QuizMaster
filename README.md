@@ -1,5 +1,5 @@
 
-# QuizMaster - Online Quiz Maker (Built with Hostinger Horizons)
+# QuizMaster - Online Quiz Maker
 
 QuizMaster is an interactive web application allowing users to create, take, and track scores for online quizzes. Built using React, Vite, TailwindCSS, shadcn/ui, and Framer Motion.
 
@@ -27,17 +27,13 @@ QuizMaster is an interactive web application allowing users to create, take, and
 *   **Supabase:** (Recommended) Backend-as-a-Service for robust authentication, database storage, and analytics.
 
 ## Getting Started
-
-This project is designed to run within the Hostinger Horizons AI Website Builder environment.
-
-1.  **Environment:** The application is intended to be developed and run inside the Hostinger Horizons platform.
-2.  **Dependencies:** `npm install` is run automatically by the environment when `package.json` is modified.
-3.  **Development Server:** `npm run dev` is run automatically by the environment. The preview will be available in the right-side panel.
-4.  **Build:** `npm run build` is run automatically by the environment for production builds.
+1.  **Dependencies:** `npm install` should be run in thee environment when `package.json` is modified.
+2.  **Development Server:** `npm run dev` should be run in the environment. 
+3.  **Build:** `npm run build` should be run in the environment for production builds.
 
 **Running Locally (Standard Setup - If Exported)**
 
-If you export the code from Hostinger Horizons, you can run it locally:
+If you want to run it locally:
 
 1.  **Prerequisites:** Ensure you have Node.js (v20 or later recommended) and npm installed.
 2.  **Install Dependencies:**
@@ -76,7 +72,7 @@ If you export the code from Hostinger Horizons, you can run it locally:
 ├── postcss.config.js     # PostCSS configuration
 ├── README.md             # This file
 ├── tailwind.config.js    # Tailwind CSS configuration
-└── vite.config.js        # Vite configuration (Read Only in Horizons)
+└── vite.config.js        # Vite configuration 
 ```
 
 ## Data Storage (localStorage - Demo)
@@ -99,7 +95,5 @@ If you export the code from Hostinger Horizons, you can run it locally:
 *   **Error Handling & Validation:** Enhance input validation and error handling throughout the application.
 *   **Testing:** Implement unit and integration tests.
 
-## Deployment
 
-Within the Hostinger Horizons environment, deployment is handled via the "Publish" button in the top-right corner. This will deploy the application to your associated Hostinger hosting plan.
   
