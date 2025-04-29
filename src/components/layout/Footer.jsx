@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-sm">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-muted-foreground">
-            © {new Date().getFullYear()} QuizMaster. Built with Hostinger Horizons.
+            © {new Date().getFullYear()} QuizMaster. 
           </div>
           <div className="flex space-x-4">
             <Link to="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors"><Twitter size={20} /></Link>
